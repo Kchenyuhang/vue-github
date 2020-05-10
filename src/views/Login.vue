@@ -1,17 +1,22 @@
 <template>
-  <div>
-    <v-btn color="purple" dark @click="gitHub">
-      GitHub
-    </v-btn>
-  </div>
+  <v-container>
+    <my-button size="large" fontSize="20" color="#0288d1" @on-click="gitHub">
+      <v-icon slot="pre-icon" color="white">mdi-apple</v-icon>
+      <span>GitHub</span>
+      <v-icon slot="suffix-icon" color="red">mdi-heart</v-icon>
+    </my-button>
+  </v-container>
 </template>
 <script>
+import MyButton from '../components/MyButton'
 export default {
   name: 'Login',
   data() {
     return {}
   },
-  components: {},
+  components: {
+    MyButton
+  },
   created() {},
   mounted() {},
   methods: {
