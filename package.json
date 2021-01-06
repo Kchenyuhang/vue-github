@@ -13,7 +13,7 @@
   "author": "yhChen",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "animate.css": "^3.7.2",
     "core-js": "^3.6.4",
     "element-ui": "^2.13.0",
